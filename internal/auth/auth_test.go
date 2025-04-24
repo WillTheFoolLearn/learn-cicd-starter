@@ -10,7 +10,7 @@ func Test1(t *testing.T) {
 	header1 := make(http.Header)
 	header2 := make(http.Header)
 
-	header1.Add("Authorization", "Bearer cheese")
+	header1.Add("Authorization", "ApiKey cheese")
 	header2.Add("Cheese", "Authorization test")
 
 	testList := []Tests{
